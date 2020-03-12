@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/Desktop/Dropbox/Studia/PO/Saper/cmake-build-debug/class.h
+iostream
+-
+
+/root/Desktop/Dropbox/Studia/PO/Saper/main.cpp
+cmake-build-debug/class.h
+/root/Desktop/Dropbox/Studia/PO/Saper/cmake-build-debug/class.h
+
