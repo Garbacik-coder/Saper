@@ -2,8 +2,7 @@
 
 int main()
 {
-    srand(time(NULL));
-    MinesweeperBoard x(9, 7, DEBUG);
+    MinesweeperBoard x(9, 7, HARD);
     x.debug_display();
     std::cout<<x.getFieldInfo(0,1);
     /// awgrnevge
